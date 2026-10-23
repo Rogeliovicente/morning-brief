@@ -67,6 +67,10 @@ jobs:
           if-no-files-found: error
           retention-days: 14
 
+      - name: Configure GitHub Pages
+        if: github.event_name == 'workflow_dispatch' && inputs.action == 'publish'
+        uses: actions/configure-pages@v5
+
       - name: Build Pages site
         if: github.event_name == 'workflow_dispatch' && inputs.action == 'publish'
         run: |
@@ -76,7 +80,7 @@ jobs:
 
       - name: Upload Pages artifact
         if: github.event_name == 'workflow_dispatch' && inputs.action == 'publish'
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: _site
 
