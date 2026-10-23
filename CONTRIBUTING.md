@@ -13,9 +13,9 @@ La edición piloto del 22 de octubre de 2026 permanece en `index.html`. El flujo
 ## Revisar y publicar
 
 1. Abre un pull request hacia `main` con `content/edition.json`. El flujo valida y genera una vista previa como artefacto; no publica desde ramas ni pull requests.
-2. Haz la revisión editorial del contenido y aprueba/integra el pull request solo cuando esté listo.
+2. Haz la revisión editorial del contenido y aprueba/integra el pull request solo cuando esté listo. Para que GitHub obligue a esa revisión, configura una regla de rama que requiera pull request y aprobación antes de integrar.
 3. En **Actions → Publish The Morning Brief → Run workflow**, selecciona `publish` para publicar manualmente. El flujo está deliberadamente sin calendario.
-4. La publicación requiere que GitHub Pages esté configurado para usar **GitHub Actions**. El entorno `github-pages` puede requerir aprobación adicional si se configuran revisores en **Settings → Environments**.
+4. Antes de la primera publicación, configura GitHub Pages para usar **GitHub Actions** y agrega un revisor requerido al entorno `github-pages` en **Settings → Environments**. Sin esas protecciones, GitHub no exige por sí mismo una aprobación editorial en el despacho manual.
 
 La salida publicada incluye el `index.html` existente sin modificar y la edición actual en `/latest/`. Una edición posterior reemplazará el contenido de `/latest/`; esta propuesta no implementa ni duplica el archivo histórico. Antes de mover la edición más reciente a la portada, deberá definirse ese archivo y una estrategia de migración segura.
 
