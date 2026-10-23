@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-23",
+  "headline": "WHAT MATTERS.",
+  "dek": "Riesgos PHP, pilotos XR y gestión tecnológica",
+  "stories": [
+    {
+      "category": "RIESGO · ACTUALIZACIÓN",
+      "title": "El parcheo de PHP provoca interrupciones en servicios públicos mientras crece la alerta de seguridad",
+      "summary": "Associated Press informa que servicios y sitios de organismos en Reino Unido, Finlandia y Japón experimentaron interrupciones durante la aplicación y prueba de parches para dos vulnerabilidades críticas. Es una evolución material respecto al aviso inicial del 21 de octubre.",
+      "analysis": "Para habilitación tecnológica, la decisión no termina al conocer una CVE: se necesita inventario, dependencia de proveedores, pruebas de regresión y comunicación de continuidad. El reporte no prueba afectación en sistemas del Tec.",
+      "evidence_type": "Fuente periodística, institucional o análisis — ver limitaciones",
+      "source_title": "Associated Press · 23 oct",
+      "source_url": "https://apnews.com/article/php-vulnerabilities-security-threat-38d37c4c18bf8355b02d85b5a73ed642",
+      "source_date": "23 OCT 2026",
+      "limitations": "Reporte periodístico sobre interrupciones y respuesta; no identifica exposición o incidentes en el Tec."
+    },
+    {
+      "category": "XR · BENCHMARK UNIVERSITARIO",
+      "title": "La UPV completa tres pilotos europeos de telepresencia holográfica y realidad mixta",
+      "summary": "El instituto iTEAM de la Universitat Politècnica de València reportó tres ensayos experimentales con estudiantes de su máster en Tecnologías Multimedia en el proyecto europeo 6G-PATH, junto con Tesla Technologies, Volograms y MATSUKO. Exploraron telepresencia holográfica, representaciones volumétricas y entornos inmersivos.",
+      "analysis": "Es un ejemplo de cómo articular socios, laboratorio y experiencias formativas antes de escalar. Para Mostla puede servir como referencia de diseño y evaluación de pilotos, no como prueba de eficacia educativa generalizada.",
+      "evidence_type": "Fuente periodística, institucional o análisis — ver limitaciones",
+      "source_title": "Universitat Politècnica de València · iTEAM",
+      "source_url": "https://www.iteam.upv.es/iteam-completes-three-european-holographic-education-pilots-at-its-immersive-communications-laboratory/",
+      "source_date": "22 OCT 2026",
+      "limitations": "Comunicado institucional sobre pilotos; no demuestra por sí solo mejoras de aprendizaje ni viabilidad de despliegue masivo."
+    },
+    {
+      "category": "GESTIÓN TECNOLÓGICA · SECTOR PÚBLICO",
+      "title": "Una responsable tecnológica de North Yorkshire plantea comprar capacidades reutilizables, no sistemas aislados",
+      "summary": "Madeline Smith argumenta que organismos públicos siguen adquiriendo aplicaciones monolíticas pese a que APIs, plataformas y componentes reutilizables permiten separar capacidades, datos y procesos. El artículo propone replantear las decisiones de compra y el bloqueo con proveedores.",
+      "analysis": "Criterio aplicable a un portafolio universitario: antes de incorporar una herramienta, preguntar si la capacidad ya existe, si se integra con servicios actuales y si los datos pueden salir del proveedor. Es una postura de gestión, no un resultado experimental.",
+      "evidence_type": "Fuente periodística, institucional o análisis — ver limitaciones",
+      "source_title": "THINK Digital Partners · 13 oct",
+      "source_url": "https://www.thinkdigitalpartners.com/news/2026/10/13/the-technology-moved-the-operating-model-didnt/",
+      "source_date": "13 OCT 2026",
+      "limitations": "Artículo de opinión basado en experiencia profesional; no ofrece evaluación cuantitativa de una implementación concreta."
+    },
+    {
+      "category": "GESTIÓN · ESTRUCTURA ORGANIZACIONAL",
+      "title": "Gartner plantea una Office of the CIO para coordinar gobernanza, talento y ejecución tecnológica",
+      "summary": "La descripción de una sesión del Gartner IT Symposium indica que solo 24% de CIOs reportan modelos operativos suficientemente flexibles frente a cambios del negocio y propone un mecanismo de orquestación para alinear gobernanza, talento y ejecución.",
+      "analysis": "Inspira una distinción útil para Mostla: responsabilidades estables de procesos y servicio frente a responsables temporales de tendencias tecnológicas. No implica adoptar literalmente una Office of the CIO ni replicar la estructura corporativa.",
+      "evidence_type": "Fuente periodística, institucional o análisis — ver limitaciones",
+      "source_title": "Gartner IT Symposium · 21 oct",
+      "source_url": "https://www.gartner.com/en/conferences/na/symposium-us/sessions/detail/4967040-Why-Operating-Model-Transformations-Stall-and-How-the-Office-of-the-CIO-Fixes-It",
+      "source_date": "21 OCT 2026",
+      "limitations": "Resumen público de una conferencia; no equivale al contenido completo de la charla ni especifica la metodología del porcentaje citado."
+    }
+  ],
+  "learning": {
+    "title": "Capacidad tecnológica frente a aplicación",
+    "body": "Mapear capacidades antes de comprar soluciones puede evitar duplicidad y lock-in."
+  }
+}
