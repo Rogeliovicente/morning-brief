@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-24",
+  "headline": "WHAT MATTERS.",
+  "dek": "SÁBADO 24 DE OCTUBRE · EDICIÓN 005. Esta semana ofrece dos lecciones para dirigir tecnología: acelerar las tareas técnicas no sustituye la gobernanza, y un piloto útil tiene que medir el resultado, no solo exhibir la herramienta. Seis lecturas verificadas: dos de gestión, una XR, una educativa, una de evaluación de agentes y una alerta de seguridad.",
+  "stories": [
+    {
+      "category": "management",
+      "title": "Dos pilotos británicos convierten semanas de análisis de sistemas heredados en horas",
+      "summary": "El Government Digital Service (GDS) del Reino Unido reportó experimentos de modernización con distintas dependencias y el socio técnico Kainos. En Student Loans Company, un equipo utilizó IA para examinar 33 aplicaciones escritas en Clojure: una tarea estimada en cinco semanas se completó en menos de un día. En UK Hydrographic Office, generó pruebas automatizadas para una aplicación de escritorio de unos 20 años: la cobertura de pruebas pasó de cero a 96% y una regresión que requería aproximadamente 15 días de trabajo manual se redujo a unos 30 minutos. Esas cifras describen fases de diagnóstico y pruebas, no la sustitución completa de los sistemas.",
+      "analysis": "Perla de pilotaje: elegir procesos con una línea base clara antes de probar IA. Una prueba replicable puede documentar tiempo de análisis sin IA, tiempo asistido, porcentaje de dependencias correctamente identificadas, cobertura de pruebas y errores que escaparon. Para un portafolio universitario, la decisión de escalar debería depender también de reproducibilidad, revisión de especialistas, seguridad y costo total, no solo de la demostración más veloz. La IA parece reducir el costo de comprender software antiguo, pero el equipo humano sigue siendo responsable del cambio.",
+      "evidence_type": "Reporte periodístico del 21 de octubre sobre pilotos comunicados por GDS, con cifras y escenarios concretos",
+      "source_title": "THINK Digital Partners — 21 oct 2026",
+      "source_url": "https://www.thinkdigitalpartners.com/news/2026/10/21/ai-could-help-government-tackle-legacy-it-faster-pilots-find/",
+      "source_date": "2026-10-21",
+      "limitations": "Las comparaciones son estimaciones y resultados reportados por los participantes; no son un ensayo controlado ni una auditoría independiente. No se publican costos de licencia ni indicadores de defectos posteriores."
+    },
+    {
+      "category": "management",
+      "title": "Reino Unido prioriza medir resultados digitales antes de exigir reportes de gasto incomparables",
+      "summary": "En una respuesta parlamentaria publicada el 22 de octubre, el Gobierno británico aceptó avanzar en ocho ámbitos de transformación digital, pero reconoció que sus sistemas financieros aún no permiten agregar el gasto tecnológico con definiciones confiables y comparables entre departamentos. En lugar de imponer de inmediato reportes anuales aislados, está desarrollando un Digital Performance Framework con medidas de capacidad y resultados del servicio, incluido costo por transacción. Su cartera transversal recibe información de proyectos digitales cuyo costo de vida supera cinco millones de libras; el Gobierno afirma que con ese umbral observa aproximadamente 90% del gasto digital total.",
+      "analysis": "Regla de gestión transferible: antes de pedir un KPI a todas las áreas, definir la unidad de medida, su propietario y la calidad del dato. Primero estandarizar un indicador transversal —por ejemplo, costo por usuario atendido, tasa de tareas completadas o tiempo de resolución— y solo después agregarlo por campus o servicio. Un tablero lleno de cifras incompatibles produce precisión aparente. También destaca una distinción entre supervisar inversiones grandes y capturar toda la actividad operativa: ambas necesitan umbrales y cargas de reporte diferentes.",
+      "evidence_type": "Respuesta oficial del Gobierno a una comisión parlamentaria; publicada el 22 de octubre (recibida por la comisión en septiembre)",
+      "source_title": "Parlamento del Reino Unido — respuesta del Gobierno",
+      "source_url": "https://publications.parliament.uk/pa/cm5902/cmselect/cmsctech/651/report.html",
+      "source_date": "2026-10-22",
+      "limitations": "Es un compromiso y descripción gubernamental, no una evaluación independiente de mejora de servicios. El umbral de cinco millones y la cobertura de 90% son afirmaciones oficiales específicas del contexto británico."
+    },
+    {
+      "category": "xr",
+      "title": "Maryland identifica señales EEG de mareo inmersivo con Meta Quest 2; aún no prueba una solución automática",
+      "summary": "La University of Maryland difundió el 22 de octubre un estudio publicado el 25 de septiembre en Virtual Reality. Cuarenta participantes utilizaron Meta Quest 2 mientras un sistema de electroencefalografía de 64 electrodos registraba su actividad cerebral frente a estímulos diseñados para provocar conflicto entre convergencia ocular y acomodación. Después respondieron un cuestionario de síntomas. El equipo encontró cambios estadísticamente significativos en bandas de actividad frontal y occipital asociados con la experiencia de cybersickness. El objetivo futuro es combinar señales fisiológicas y ajustes del entorno inmersivo para anticipar malestar, no afirmar que el visor ya lo resuelve.",
+      "analysis": "Para valorar experiencias XR, conviene separar al menos tres indicadores: tolerabilidad (síntomas e interrupciones), desempeño en la tarea y aprendizaje. Un piloto universitario simple puede registrar duración efectiva, retiros anticipados, síntomas antes y después y el porcentaje que completa la actividad, sin comprar instrumentación EEG. Si la experiencia es incómoda, incluso un contenido pedagógicamente excelente puede fallar operativamente. El caso inspira una medición más seria de accesibilidad y confort, pero no exige replicar el equipo de laboratorio.",
+      "evidence_type": "Nota institucional sobre estudio experimental, con tamaño muestral y dispositivos descritos; artículo científico publicado en septiembre",
+      "source_title": "University of Maryland Institute for Health Computing — 22 oct",
+      "source_url": "https://ihc.umd.edu/um-ihc-researchers-identify-brain-signals-linked-to-cybersickness-in-immersive-environments/",
+      "source_date": "2026-10-22",
+      "limitations": "La muestra fue de 40 personas en una condición experimental específica. Identificar correlatos cerebrales no valida todavía predicción individual, mitigación en tiempo real ni mejoras de aprendizaje."
+    },
+    {
+      "category": "education",
+      "title": "Expertos distinguen entre usar IA para practicar y delegarle el pensamiento del estudiante",
+      "summary": "En una entrevista institucional del 22 de octubre, Panayiota Kendeou, de la University of Minnesota, explicó los resultados de un informe de consenso publicado el 6 de octubre. Treinta especialistas analizaron 65 procesos de aprendizaje y alcanzaron consenso sobre posibles beneficios o vulnerabilidades en 42. Su mensaje no es prohibir ni adoptar IA indiscriminadamente: la consideran más prometedora para practicar conocimientos ya adquiridos, recibir retroalimentación y contrastar explicaciones, y advierten que pedirle que resuelva desde el inicio o aplique por el alumno puede desplazar esfuerzo cognitivo esencial. También llaman a preservar interacciones humanas y colaboración.",
+      "analysis": "Criterio de diseño educativo en tres momentos: primero, evidencia de razonamiento propio; después, IA como práctica guiada y retroalimentación; al final, aplicación independiente o justificada por el estudiante. Una prueba de herramienta educativa debería observar qué proceso cognitivo ejercita el alumno y si la ayuda crea dependencia. Esto puede orientar rúbricas para experiencias con tutores y simuladores: no basta que las respuestas producidas sean correctas si no sabemos qué aprendió quien las recibió.",
+      "evidence_type": "Entrevista del 22 de octubre que interpreta un consenso experto de octubre; no ensayo de campo",
+      "source_title": "University of Minnesota — entrevista a Panayiota Kendeou",
+      "source_url": "https://twin-cities.umn.edu/news-events/talking-ai-and-education-university-minnesota",
+      "source_date": "2026-10-22",
+      "limitations": "El informe de base fue publicado el 6 de octubre; el hecho nuevo es la entrevista del 22. El consenso de especialistas no equivale a evidencia causal de 42 experimentos con estudiantes."
+    },
+    {
+      "category": "governance",
+      "title": "Microsoft Research y Carnegie Mellon llevan la evaluación de agentes de IA a una discusión metodológica",
+      "summary": "Microsoft Research y el centro AIMSEC de Carnegie Mellon programaron para el 22 y 23 de octubre, en Nueva York, un encuentro intersectorial sobre ciencia de la medición para agentes de IA. La agenda distingue marcos transversales de evaluación de retos particulares por dominio, incluye sesiones de trabajo sobre herramientas, fallas y supervisión, y anuncia futuros informes públicos de síntesis. El diagnóstico de los organizadores es claro: agentes capaces de actuar en nombre de usuarios avanzan más rápido que las metodologías compartidas para evaluar su conducta y rendición de cuentas.",
+      "analysis": "Antes de incorporar un agente a un proceso institucional, describir por separado cuatro pruebas: éxito de la tarea, calidad de las decisiones intermedias, trazabilidad de herramientas y permisos, y capacidad de detenerse o escalar a una persona ante ambigüedad. Deben evaluarse casos rutinarios y excepciones. Registrar únicamente que el agente terminó la tarea puede ocultar acciones equivocadas o riesgos de privacidad. Esta es una propuesta de rúbrica local motivada por la agenda, no un estándar acordado en el evento.",
+      "evidence_type": "Programa oficial de un encuentro celebrado en las fechas anunciadas; agenda y objetivos, no resultados de investigación",
+      "source_title": "Microsoft Research / Carnegie Mellon AIMSEC — encuentro 22–23 oct",
+      "source_url": "https://www.microsoft.com/en-us/research/event/advancing-the-science-of-ai-agent-evaluation/",
+      "source_date": "2026-10-23",
+      "limitations": "La página consultada describe objetivos y sesiones en futuro; no publica conclusiones, acuerdos alcanzados ni un estándar ya validado. No se infiere asistencia efectiva a partir de invitados anunciados."
+    },
+    {
+      "category": "risk",
+      "title": "CISA incorpora a su catálogo de fallas explotadas un componente específico de Nextcloud Office",
+      "summary": "El 23 de octubre, la agencia estadounidense CISA añadió a su catálogo KEV la CVE-2026-110447, una inyección de comandos que permite ejecución remota de código en Collabora Online Built-in CODE Server, identificado como richdocumentscode dentro de Nextcloud. La descripción técnica delimita el alcance: afecta versiones anteriores a 26.4.303 de ese componente integrado; no afecta a instalaciones independientes de Collabora Online. La vulnerabilidad ya había sido publicada el 14 de octubre, y se reportó explotación en septiembre y octubre. El vencimiento federal del 26 de octubre corresponde a obligaciones de agencias estadounidenses, no a todas las universidades.",
+      "analysis": "Una buena respuesta institucional empieza por una pregunta binaria: ¿existe este componente y en qué versión? Solo si hay exposición, se prioriza la actualización del complemento, la revisión de accesibilidad desde Internet y la búsqueda de indicios de intrusión según el proveedor. El nombre comercial genérico de una plataforma no basta para determinar riesgo: importan modalidad de despliegue, integración y versión. Este caso ilustra por qué el radar de vulnerabilidades debe conectarse a un inventario real y no producir alertas genéricas para todos los usuarios.",
+      "evidence_type": "Registro técnico NVD de NIST actualizado el 23 de octubre y listado de explotación conocida de CISA",
+      "source_title": "NIST NVD — CVE-2026-110447; actualización 23 oct",
+      "source_url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110447",
+      "source_date": "2026-10-23",
+      "limitations": "No se ha establecido que el Tec use este módulo ni que exista afectación institucional. La fecha del 26 de octubre es un plazo de remediación federal estadounidense, no una obligación universal."
+    }
+  ],
+  "learning": {
+    "title": "Tres métricas antes de celebrar un piloto rápido",
+    "body": "Microaprendizaje de 3 minutos. Imagina que un proveedor demuestra que su herramienta de IA termina una tarea en 15 minutos en vez de 5 horas. ¿Basta para un despliegue? No. (1) LÍNEA BASE: registra el tiempo y calidad del proceso actual con una muestra comparable; distingue estimaciones de mediciones reales. (2) RESULTADO: define una métrica principal de impacto para el público final —por ejemplo, tareas completadas sin ayuda, aprendizaje demostrado o tiempo efectivo de atención—, y una métrica de seguridad o calidad que no pueda deteriorarse. (3) REGLA DE DECISIÓN: antes de iniciar, fija un umbral de mejora, un umbral de errores aceptables y una condición de suspensión; identifica quién audita y quién autoriza escalar. El piloto deja de ser una demostración cuando existe una comparación válida, un resultado relevante y una decisión explícita. Ejercicio: escribe esas tres cosas para el siguiente piloto que tengas en puerta."
+  }
+}
