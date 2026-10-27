@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-27",
+  "headline": "WHAT MATTERS.",
+  "dek": "MARTES 27 DE OCTUBRE · EDICIÓN 008. Seis lecturas verificadas: una estrategia de capacitación digital con cifras reales, un desarrollo de software que separa IA y autorizaciones, una simulación XR para futuros docentes, una guía de aprendizaje por proyectos, cinco pilotos universitarios africanos y una prueba de seguridad de robots. El foco no es la novedad de la herramienta: es cómo diseñar, medir y gobernar su uso sin confundir promesas con resultados.",
+  "stories": [
+    {
+      "category": "management · formación y escala",
+      "title": "Kenia y UNESCO escalan formación en IA tras graduar a 1,239 servidores públicos",
+      "summary": "UNESCO informó el 26 de octubre que 1,239 funcionarios terminaron la primera cohorte de un MOOC diseñado con la Universidad de Oxford y la Kenya School of Government (KSG). La ceremonia de graduación fue el 8 de octubre; la primera cohorte había atraído a 2,730 participantes. Los contenidos abarcan ética de IA, transformación digital centrada en las personas y gobernanza de datos. La segunda cohorte arrancó el 21 de octubre con una meta de 9,000 funcionarios adicionales y 2,380 inscripciones reportadas. Para ampliar la cobertura se movilizan 15 centros de innovación digital en 12 condados. La iniciativa también busca integrar el curso a sistemas permanentes de inducción y desarrollo profesional, y formar parte de un objetivo más amplio de 20,000 personas capacitadas hacia 2027.",
+      "analysis": "Caso de gestión: el diseño combina una oferta formativa reutilizable, canales territoriales de reclutamiento, una institución responsable y continuidad después del curso. Para un despliegue multicampus no basta sumar registros: construir un embudo con convocados, inscritos, personas activas, graduados y quienes demuestran una habilidad en su puesto. Separar cobertura territorial, finalización y transferencia permite identificar si el obstáculo está en acceso, acompañamiento o relevancia del contenido. Medir costos y horas de facilitación por participante que completa, no solo por inscripción.",
+      "evidence_type": "Comunicado institucional de UNESCO publicado el 26 de octubre; cifras operativas declaradas por los participantes, ceremonia del 8 de octubre y nueva cohorte del 21.",
+      "source_title": "UNESCO / Kenya School of Government — 26 oct 2026",
+      "source_url": "https://www.unesco.org/en/articles/kenya-scales-ai-training-first-unesco-oxford-graduation-and-second-cohort-launch",
+      "source_date": "2026-10-26",
+      "limitations": "Los 1,239 graduados y 2,730 participantes no equivalen a una medición de dominio de competencias ni prueban mejora de servicios. Las metas de 9,000 y 20,000 son prospectivas; no se presenta evaluación independiente de impacto."
+    },
+    {
+      "category": "management · proceso y producto",
+      "title": "Leaderbrock convierte tres procesos manuales en una app y mantiene la aprobación de gastos fuera de la IA",
+      "summary": "Alher Tech describió el 26 de octubre una aplicación interna hecha para Leaderbrock Sports, agencia de marketing deportivo con personal en varios países. Sustituye agenda en hojas de cálculo, comprobantes físicos y seguimiento de rutas por una app móvil y un panel web con cuatro perfiles: ventas, responsables de equipo, finanzas y administración. El proyecto pasó de una demostración navegable en mayo de 2026 a producción en agosto y a la versión presentada en octubre. Una IA extrae datos de recibos, pero crea solo un borrador: el servidor comprueba importes e impuestos, la persona corrige y finanzas aprueba. Las operaciones quedan auditadas; los recibos pueden quedar en cola sin conectividad y la arquitectura comparte reglas entre web y móvil. El proveedor reporta más de 1,200 commits y pruebas automatizadas, pero no un ahorro cuantificado.",
+      "analysis": "Perla de desarrollo: separar captura automatizada, validación determinista, confirmación humana y autorización formal. Antes de pilotear una función con IA, dibujar cuatro estados y quién puede cambiarlos; definir pruebas de importes, duplicados, monedas, zonas horarias y operación sin red. La entrega por fases desde una demo permite detectar excepciones reales antes de escalar. Para valorar la inversión habría que comparar errores de captura, minutos de conciliación, tickets y costo total frente al proceso previo, cifras ausentes en el caso.",
+      "evidence_type": "Caso técnico publicado por la empresa desarrolladora con cronología, arquitectura, roles, reglas y controles operativos; evidencia de primera parte del proveedor.",
+      "source_title": "Alher Tech — caso Leaderbrock, 26 oct 2026",
+      "source_url": "https://alhertech.com/en/blog/leaderbrock-case-study/",
+      "source_date": "2026-10-26",
+      "limitations": "No hay auditoría independiente, muestra de transacciones, costos ni indicadores de mejora real. La descripción de cifrado y controles proviene del desarrollador y no equivale a una certificación de seguridad."
+    },
+    {
+      "category": "xr · simulación docente",
+      "title": "Aurora University emplea VR con alumnos virtuales para ensayar la enseñanza antes de entrar al aula",
+      "summary": "Aurora University describió el 26 de octubre su Student Teacher Simulation Lab, desarrollado con VictoryXR para la formación inicial de docentes. En un salón virtual, quienes se preparan para enseñar interactúan mediante visores de realidad virtual con avatares de estudiantes impulsados por IA. La experiencia permite ensayar preguntas, manejo de grupo, comunicación con perfiles diversos y enseñanza bilingüe, con retroalimentación durante la práctica. La institución plantea la simulación como una oportunidad adicional de preparación previa a las prácticas escolares, no como sustituto de la interacción con alumnos reales. La nota digital reproduce contenido de una revista institucional de primavera-verano de 2026, dato importante al interpretar la actualidad de la experiencia.",
+      "analysis": "Para pilotear simuladores XR de competencias, definir antes un comportamiento observable: por ejemplo, formular preguntas abiertas, responder a una interrupción o cambiar de idioma sin perder claridad. Registrar desempeño en dos intentos con una rúbrica, estabilidad del escenario, minutos de montaje, comodidad y calidad de la retroalimentación. Contrastar después con práctica supervisada real; la confianza declarada no debe convertirse en sinónimo de competencia. También conviene preguntar quién configura los personajes y qué trazas conserva el proveedor.",
+      "evidence_type": "Nota institucional fechada el 26 de octubre que describe un laboratorio y su proveedor; extracto de una revista universitaria anterior.",
+      "source_title": "Aurora University — Student Teacher Simulation Lab, 26 oct 2026",
+      "source_url": "https://aurora.edu/blog/au-today/2026/10/innovative-technology-enhances-teacher-preparation-at-au.html",
+      "source_date": "2026-10-26",
+      "limitations": "No informa cantidad de estudiantes, marca/modelo del visor, licenciamiento, rúbricas publicadas ni resultados comparativos de aprendizaje. La novedad editorial del 26 no demuestra que el laboratorio se inaugurara ese día."
+    },
+    {
+      "category": "education · diseño instruccional",
+      "title": "WPI presenta siete principios para valorar el proceso, no solo el producto final de un proyecto",
+      "summary": "Worcester Polytechnic Institute anunció el 26 de octubre que compartirá en una conferencia nacional Impact by Design, marco desarrollado por su Center for Project-Based Learning. Sus siete principios incluyen partir de problemas reales, valorar a las personas y al proceso, conectar teoría y práctica, explicitar el propósito, crear seguridad psicológica con reto adecuado, dar agencia al estudiante y explorar perspectivas distintas. La propuesta responde a una tensión intensificada por IA generativa: un producto final correcto puede revelar poco sobre el razonamiento que ocurrió. El planteamiento se apoya en décadas de práctica institucional con proyectos, pero el comunicado describe un marco de diseño y no una nueva prueba experimental de eficacia.",
+      "analysis": "Traducción operativa: para evaluar una experiencia tecnológica o un hackatón, pedir evidencia de decisiones intermedias, cambios de rumbo, contribuciones individuales y explicación del problema; no limitar la nota al prototipo y al pitch. Crear dos criterios separados: calidad del entregable y calidad del proceso documentado. Antes de transferir el marco entre asignaturas, validar que los siete principios se puedan observar con una rúbrica viable para docentes. La evaluación debe distinguir aprender con IA de simplemente entregar algo producido con ella.",
+      "evidence_type": "Anuncio institucional de WPI del 26 de octubre sobre un marco y su próxima presentación en la conferencia; principios expuestos de forma pública.",
+      "source_title": "Worcester Polytechnic Institute — Impact by Design, 26 oct 2026",
+      "source_url": "https://www.wpi.edu/news/wpi-unveil-impact-design-new-framework-project-based-learning-national-conference",
+      "source_date": "2026-10-26",
+      "limitations": "La expresión promocional de educación 'a prueba de IA' no está demostrada por el comunicado. No se publican validación de rúbricas, costos de adopción ni efectos de aprendizaje atribuibles al nuevo marco."
+    },
+    {
+      "category": "benchmark · pilotos multicampus",
+      "title": "Cinco universidades africanas pasan de un diagnóstico de IA a pilotos locales con casos documentados para 2027",
+      "summary": "WISE y The Education Collaborative de Ashesi University detallaron la segunda fase de una colaboración que parte de un estudio de 2025 con 3,875 respuestas de 47 universidades. De 27 propuestas eligieron cinco pilotos: Bells University of Technology, Nigeria, estudia un asistente limitado a contenidos curriculares aprobados; Botho University, Botswana, combina gobernanza, capacitación y apoyo temprano; KCA University, Kenia, plantea rutas adaptativas controladas por docentes; University of Kigali, Ruanda, proyecta tutor y alertas con revisión humana; y Université d'Abomey-Calavi, Benín, aborda reglas institucionales y declaración de uso de IA. Los equipos trabajaron el alcance en Nairobi el 2 de octubre, con ejecución prevista hasta junio de 2027 y estudios de caso durante julio.",
+      "analysis": "Benchmark de pilotaje: primero un diagnóstico comparativo, luego selección explícita de problemas, un proyecto por institución, asesoría común y calendario público para compartir resultados. No se pretende que cinco campus implementen la misma solución: se preserva comparabilidad metodológica con casos distintos. Es transferible a un portafolio universitario si todos reportan línea base, hipótesis, permisos, costo, indicador de éxito, criterios de suspensión y responsables de decisión. Los resultados deben medirse por separado antes de hablar de escalamiento.",
+      "evidence_type": "Comunicado de la organización coordinadora difundido en octubre y republicado el 26; programa con cinco instituciones, 27 postulaciones y objetivos documentados.",
+      "source_title": "The Education Collaborative / WISE — cinco pilotos, oct 2026",
+      "source_url": "https://educollab.ashesi.edu.gh/wise-and-education-collaborative-partner-with-five-african-universities-on-ai-adoption/",
+      "source_date": "2026-10-26",
+      "limitations": "Son diseños y compromisos en ejecución, no cinco intervenciones evaluadas. Las cifras del estudio de 2025 describen el diagnóstico previo; no se han publicado resultados de retención, aprendizaje o costos para los nuevos pilotos."
+    },
+    {
+      "category": "risk · agentes físicos",
+      "title": "Binghamton prueba una puerta trasera en la planeación de un robot y un control que revisa cada acción",
+      "summary": "Investigadores de Binghamton University presentaron en IROS 2026 dos trabajos sobre seguridad de robots cuyos planes se generan con modelos de lenguaje. En la demostración MuTRAP, un modelo preparado maliciosamente reaccionaba a una palabra disparadora y desviaba la tarea de un robot móvil sobre plataforma Segway: en vez de simular el corte de una fruta plástica, dirigía la herramienta hacia una mano de utilería. Para contener planes nocivos, propusieron PROTEA, una defensa que revisa paso a paso la seguridad de cada acción según el contexto y los cambios del entorno. El artículo institucional se publicó el 20 de octubre y no documenta un ataque contra robots de producción.",
+      "analysis": "La lección para integrar agentes a equipos físicos o procesos con permisos es comprobar las acciones ejecutables, no solo si el texto del modelo parece correcto. Proponer un control de autorización externo al modelo para operaciones sensibles y detener la ejecución cuando cambie el contexto. En una evaluación universitaria probar entradas adversarias, dependencias de terceros, trazabilidad y respuesta ante una instrucción contradictoria. La demostración de laboratorio orienta el diseño de pruebas, pero no permite asignar una probabilidad de ataque en despliegues reales.",
+      "evidence_type": "Nota de Binghamton del 20 de octubre sobre dos investigaciones presentadas en IEEE/RSJ IROS 2026 y prueba controlada con materiales de utilería.",
+      "source_title": "Binghamton University — MuTRAP y PROTEA, 20 oct 2026",
+      "source_url": "https://www.binghamton.edu/news/story/6544/secret-trigger-words-could-make-ai-powered-robots-dangerous-and-these-researchers-developed-a-defense",
+      "source_date": "2026-10-20",
+      "limitations": "El estudio demuestra un escenario preparado con un modelo comprometido; no se informa un incidente real, prevalencia de explotación, tasa numérica de detección en esta nota ni eficacia generalizada de la defensa."
+    }
+  ],
+  "learning": {
+    "title": "De las inscripciones a la competencia: tres métricas de una habilitación",
+    "body": "Microaprendizaje de 3 minutos. Una institución anuncia 2,730 participantes y 1,239 graduados. ¿Cuál es su impacto? La primera cifra expresa ALCANCE inicial; la segunda, FINALIZACIÓN reportada. Dividir 1,239 entre 2,730 da aproximadamente 45%, pero solo sirve como tasa bruta orientativa si ambas cifras describen exactamente la misma cohorte y ventana de seguimiento. Falta medir la tercera variable: TRANSFERENCIA. ¿Cuántas personas lograron aplicar la competencia en un problema real, con una evidencia verificable? Diseña un piloto de formación en tres pasos. (1) Define un denominador trazable: inscritos únicos con fecha de inicio y criterios de elegibilidad. (2) Comprueba aprendizaje con una tarea corta evaluada mediante rúbrica, no solo asistencia o autoconfianza. (3) Revisa a las cuatro u ocho semanas un caso de aplicación: quién cambió una práctica, con qué calidad y qué apoyo necesitó. Reporta los tres indicadores por sede y público, más tiempo de facilitación y costo por persona que alcanza el objetivo. Una capacitación escalable no es la que suma más clics, sino la que consigue competencias demostrables sin perder calidad."
+  }
+}
