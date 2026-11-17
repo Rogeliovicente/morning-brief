@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "YYYY-MM-DD-NNN",
+  "date": "YYYY-MM-DD",
+  "label": "RED EDITION · NNN",
+  "title": "The Morning Brief",
+  "dek": "Resumen editorial de la edición.",
+  "sections": [
+    {
+      "id": "riesgo",
+      "title": "01 · Radar de riesgos",
+      "items": [
+        {
+          "id": "story-1",
+          "tag": "FUENTE · FECHA",
+          "headline": "Titular verificable",
+          "summary": "Resumen breve del hecho respaldado por la fuente.",
+          "facts": ["Hecho verificable con enlace directo a la fuente."],
+          "analysis": "Interpretación editorial separada del hecho.",
+          "source": {
+            "label": "Fuente primaria: organización",
+            "url": "https://example.org/nota-especifica"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gestion",
+      "title": "02 · Gestión tecnológica",
+      "items": [
+        {
+          "id": "story-2",
+          "tag": "FUENTE · FECHA",
+          "headline": "Titular verificable",
+          "summary": "Resumen breve del hecho respaldado por la fuente.",
+          "facts": ["Hecho verificable con enlace directo a la fuente."],
+          "analysis": "Interpretación y posible implicación institucional.",
+          "source": {
+            "label": "Fuente primaria: organización",
+            "url": "https://example.org/nota-especifica"
+          }
+        }
+      ]
+    },
+    {
+      "id": "xr",
+      "title": "03 · Operación XR",
+      "items": [
+        {
+          "id": "story-3",
+          "tag": "FUENTE · FECHA",
+          "headline": "Titular verificable",
+          "summary": "Resumen breve del hecho respaldado por la fuente.",
+          "facts": ["Hecho verificable con enlace directo a la fuente."],
+          "analysis": "Interpretación editorial separada del hecho.",
+          "source": {
+            "label": "Fuente primaria: organización",
+            "url": "https://example.org/nota-especifica"
+          }
+        }
+      ]
+    },
+    {
+      "id": "campus",
+      "title": "04 · Benchmark universitario",
+      "items": [
+        {
+          "id": "story-4",
+          "tag": "FUENTE · FECHA",
+          "headline": "Titular verificable",
+          "summary": "Resumen breve del hecho respaldado por la fuente.",
+          "facts": ["Hecho verificable con enlace directo a la fuente."],
+          "analysis": "Interpretación editorial separada del hecho.",
+          "source": {
+            "label": "Fuente primaria: organización",
+            "url": "https://example.org/nota-especifica"
+          }
+        }
+      ]
+    },
+    {
+      "id": "aprender",
+      "title": "05 · Aprende en 3 minutos",
+      "items": [
+        {
+          "id": "learn-1",
+          "tag": "CONCEPTO",
+          "headline": "Concepto breve",
+          "summary": "Explicación autónoma que ayude a interpretar una tendencia o decisión.",
+          "facts": [],
+          "analysis": "Aplicación breve al contexto del brief."
+        }
+      ]
+    }
+  ],
+  "footer": "Fuentes, hechos e interpretación editorial se presentan por separado."
+}
