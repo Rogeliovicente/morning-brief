@@ -5,7 +5,7 @@ description: Investiga, verifica, redacta y publica The Morning Brief, revista d
 # The Morning Brief
 ## Reglas editoriales
 - Entrega de 10-12 minutos de lectura, español, formato responsivo rojo (#ed4746), carbón (#121215), amarillo (#f5c84c).
-- Esenciales: gestión tecnológica e innovación (preferentemente 1-2 casos); XR y tecnologías emergentes; innovación educativa; benchmark universitario. Importantes: IA/agentes y riesgos/ciberseguridad/gobernanza. Ocasionales: investigación y mercado EdTech.
+- Esenciales: gestión tecnológica e innovación (preferentemente 1-2 casos); IA y agentes; benchmark universitario. Importantes: XR y tecnologías emergentes; innovación educativa; riesgos/ciberseguridad/gobernanza. Ocasionales: investigación y mercado EdTech.
 - Seleccionar 12-18 candidatos, preseleccionar 5-7, publicar 4-6 solo si pasan revisión. Diversificar industrias y proveedores; no permitir predominio automático de IA.
 - Noticias prioritarias de 24-48 horas, normalmente máximo 14 días. Los casos de gestión pueden ser anteriores si siguen vigentes y se identifican como tales.
 - Leer cada fuente específica antes de incluirla; cotejar titular, fecha, hallazgos, limitaciones y URL directa. Nunca vincular títulos concretos a homepages o catálogos. Dar preferencia a acceso libre.
